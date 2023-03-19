@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./Components/Header";
+import Home from "./Components/Home";
 import NavIcon from "./Components/NavIcon";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Header />
       <NavIcon />
+      <Home />
     </div>
   );
 }
