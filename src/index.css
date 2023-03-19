@@ -15,3 +15,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* @layer base{
+.section {
+    @apply container mx-auto pt-[8rem] lg: px-8 px-4
+  }
+} */
+
