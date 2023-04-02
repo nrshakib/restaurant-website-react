@@ -24,7 +24,7 @@ const Navbar = () => {
         <li className="list-item">
           <a href="#awards">Awards</a>
         </li>
-        <li className="opensans">
+        <li className="list-item">
           <a href="#contact">Contact</a>
         </li>
       </ul>
@@ -38,7 +38,10 @@ const Navbar = () => {
         </a>
       </div>
       <div className="nav-smallScreen">
-        <GiHamburgerMenu className="hamburgerMenu" onClick={() => setToggleMenu(true)} />
+        <GiHamburgerMenu
+          className="hamburgerMenu"
+          onClick={() => setToggleMenu(true)}
+        />
         {toggleMenu && (
           <div className="nav-overlay">
             <MdOutlineRestaurantMenu
