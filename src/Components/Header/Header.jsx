@@ -5,7 +5,7 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <div className="header">
+    <div className="header" id="home">
       <div className="wrapper">
         <Subheading title="Taste the New Flavour" />
         <h1 className="header-h1">The Key to Fine Dining</h1>

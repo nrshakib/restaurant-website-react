@@ -14,6 +14,7 @@
     margin: 3rem;
 }
 .header-img{
+    margin-top: 3.5rem;
     width: 70%;
     height: 58%;
 }
@@ -22,16 +23,16 @@
     color: var(--color-golden);
     font-family: var(--font-base);
     letter-spacing: 0.04em;
-    line-height: 117px;
+    line-height: 80px;
     font-size: 90px;
 }
 .header-text{
     color: var(--color-white);
     font-family: var(--font-alt);
-    line-height: 175%;
+    line-height: 110%;
     letter-spacing: 0.04em;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
 }
 .header-button{
     font-family: var(--font-base);
@@ -43,4 +44,54 @@
     padding: 8px 32px;
     width: 157px;
     height: 44px;
+}
+
+@media screen and (max-width:2000px) {
+    .navbar-logo img {
+        width: 210px;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .nav-links {
+        display: none;
+    }
+
+    .nav-smallScreen-links {
+        margin: 20rem;
+        font-size: 2rem;
+        font-family: cursive;
+        list-style: none;
+    }
+
+    .list-item {
+        margin-bottom: 2rem;
+    }
+
+    .list-item:hover {
+        color: var(--color-golden);
+    }
+
+    .nav-smallScreen {
+        display: flex;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .navbar {
+        padding: 1rem;
+    }
+
+    .nav-login {
+        display: none;
+    }
+
+    .navbar-logo img {
+        width: 110px;
+    }
+
+    .nav-smallScreen-links {
+        margin-left: 9rem;
+        color: var(--color-golden);
+    }
 }
