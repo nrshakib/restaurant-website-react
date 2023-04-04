@@ -19,7 +19,6 @@
   z-index: 0;
 }
 .aboutUs-content {
-  display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -63,8 +62,9 @@
 .custom-button {
   font-family: var(--font-base);
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1.1rem;
   font-weight: 700;
+  border-radius: 5px;
   letter-spacing: 0.025em;
   background-color: #dcca87;
   padding: 8px 32px;
@@ -72,27 +72,59 @@
   height: 44px;
 }
 
-@media screen and (max-width: 2000px) {
+@media screen and (min-width: 951px) and (max-width: 2000px) {
+  .aboutUs-content {
+    display: flex;
+  }
+  .aboutUs-knife img {
+    height: 25rem;
+  }
   .about-us p,
   .about-history p {
-    margin: 4rem 0;
+    margin: 5rem 0;
     color: var(--color-grey);
     width: 50%;
   }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (min-width: 651px) and (max-width: 950px) {
   .aboutUs-content {
-    flex-direction: column;
+    display: flex;
   }
-  .aboutUs-knife {
-    margin: 4rem 0;
+  .aboutUs-knife img {
+    height: 15rem;
+  }
+  .about-us,
+  .about-history {
+    margin-top: 2rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  .about-us p,
+  .about-history p {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
   }
 }
 
 @media screen and (max-width: 650px) {
-  .aboutUs-overlay img {
-    width: 80%;
-    height: 50px;
+  .aboutUs-overlay {
+    display: none;
+  }
+  .aboutUs-knife {
+    display: none;
+  }
+  .about-us,
+  .about-history {
+    margin-top: 2rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  .about-us p,
+  .about-history p {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
   }
 }
