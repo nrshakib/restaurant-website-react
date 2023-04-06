@@ -6,8 +6,6 @@
   align-items: center;
   background: var(--color-black);
   color: whitesmoke;
-  margin-top: 1rme;
-  padding: 1rem 0.2rem;
 }
 .navbar-logo {
   display: flex;
@@ -128,7 +126,7 @@
   .nav-smallScreen {
     display: flex;
   }
-  .nav-login a{
+  .nav-login a {
     font-size: 0.6rem;
     margin: 0.5rem;
   }
