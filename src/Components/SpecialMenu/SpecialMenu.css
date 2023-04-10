@@ -28,39 +28,53 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  flex: 1;
 }
+.menu-heading {
+  font-family: var(--font-base);
+  font-weight: 600;
+  font-size: 2.7rem;
+  height: 3.5rem;
+  letter-spacing: 0.04rem;
+  color: var(--color-white);
+}
+
 .menuItem {
   width: 100%;
   margin: 1rem 0;
   flex-direction: column;
-}
-.menuItem-head {
-  justify-content: space-between;
-  align-items: center;
-}
-.menuItem-price {
-  margin-top: 0.5rem;
-}
-.menuItem-sub {
-  width: 100%;
-  margin-top: 0.2rem;
-  text-align: left;
-}
-.menuItem-dash {
-  width: 8.5rem;
-  height: 0.01rem;
-  background: white;
-  margin: 1rem 2rem;
-}
-.item-details {
   display: flex;
 }
 .menu-img {
   margin: 0 4rem;
 }
 .menu-img img {
-  height: 23rem;
+  height: 26rem;
   width: 20rem;
+}
+.menuItem-head {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.menuItem-price {
+  margin-top: 0.5rem;
+}
+.menuItem-name {
+  flex: 1;
+}
+.menuItem-sub {
+  width: 100%;
+  margin-top: 0.2rem;
+  color: gray;
+}
+.menuItem-dash {
+  width: 8.5rem;
+  height: 0.09rem;
+  background: var(--color-gray);
+  margin: 1rem 1rem;
 }
 .item-title {
   font-family: var(--font-base);
@@ -68,11 +82,52 @@
   font-size: 1.5rem;
 }
 .item-price {
-  color: var(--color-white);
-}
-.item-sub {
-  color: var(--color-gray);
+  color: var(--color-golden);
 }
 .custom-button {
   margin-top: 0.1rem;
+}
+
+@media screen and (min-width: 651px) and (max-width: 950px) {
+  .specialMenu {
+    flex-direction: column;
+    align-items: center;
+    width: 100vh;
+  }
+}
+@media screen and (max-width: 650px) {
+  .specialMenu-menu {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .specialHeadText {
+    font-size: 1.5rem;
+  }
+  .menu-img img {
+    width: 80%;
+    height: 70%;
+    margin-bottom: 1rem;
+  }
+  .menu-heading {
+    font-size: 2rem;
+  }
+  .menuItem-name p {
+    width: 5.9rem;
+  }
+  .item-title {
+    font-size: 1rem;
+  }
+  .menuItem-dash {
+    width: 2rem;
+    height: 0.09rem;
+    background: var(--color-gray);
+    margin: 0.3rem 1rem;
+  }
+  .menuItem-sub {
+    width: 100%;
+    margin-top: 0.2rem;
+    font-size: 0.7rem;
+    color: gray;
+  }
 }
