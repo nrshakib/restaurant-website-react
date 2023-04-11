@@ -20,7 +20,7 @@
 .chef-img img {
   width: 30rem;
   height: 25rem;
-  margin: 0 12rem;
+  margin: 0 10rem;
 }
 .chef-sign {
   color: var(--color-white);
@@ -63,9 +63,45 @@
   height: 3rem;
   margin-top: 1.5rem;
 }
-@media screen and (min-width: 951px) and (max-width: 2000px) {
+@media screen and (min-width: 951px) and (max-width: 1150px) {
+  .chef-img img {
+    width: 25rem;
+    height: 25rem;
+    margin: 2rem 2rem 2rem 4rem;
+  }
+  .chef-info {
+    margin-top: 2rem;
+  }
 }
 @media screen and (min-width: 651px) and (max-width: 950px) {
+  .chef-img img {
+    width: 15rem;
+    height: 15rem;
+    margin: 2rem;
+  }
+  .chef-info {
+    margin-top: 1.8rem;
+  }
+  .chef-content {
+    width: 90%;
+    margin-right: 0;
+  }
+  .chef-text {
+    width: 100%;
+    font-size: 0.9rem;
+    text-align: left;
+  }
+  .chef-content-quote img {
+    margin: 1.5rem 0.4rem 0 0;
+  }
+  .chef-text-quote {
+    text-align: left;
+    margin-left: 0.7rem;
+    width: 100%;
+  }
+  .chef-sign {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 650px) {
   .chef {
@@ -74,12 +110,30 @@
   .chef-img img {
     width: 10rem;
     height: 12rem;
-    margin: 1rem;
+    margin: 0.5rem;
   }
   .chef-info {
-    margin: 1.5rem;
+    margin: 2rem;
   }
-  .chef-header{
+  .chef-header {
     font-size: 2rem;
+  }
+  .chef-content,
+  .chef-sign {
+    margin-left: 2.5rem;
+    margin-right: 0;
+    width: 85%;
+  }
+  .chef-sign {
+    width: 50%;
+  }
+  .chef-content-quote p {
+    width: 75%;
+    text-align: left;
+  }
+  .chef-text,
+  .chef-text-quote {
+    font-size: 0.8rem;
+    width: 100%;
   }
 }
