@@ -5,9 +5,6 @@ import "./AboutUs.css";
 const AboutUs = () => {
   return (
     <div className="aboutUs" id="about">
-      {/* <div className="aboutUs-overlay">
-        <img src={images.G} alt="g letter" />
-      </div> */}
       <div className="about-content">
         <div className="about-us">
           <h1 className="headText">About Us</h1>
