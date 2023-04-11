@@ -1,5 +1,6 @@
 import "./App.css";
 import AboutUs from "./Components/AboutUs/AboutUs";
+import Chef from "./Components/Chef/Chef";
 import Header from "./Components/Header/Header";
 import Navbar from "./Components/Navbar/Navbar";
 import SpecialMenu from "./Components/SpecialMenu/SpecialMenu";
@@ -10,7 +11,8 @@ function App() {
       <Navbar />
       <Header />
       <AboutUs />
-      <SpecialMenu/>
+      <SpecialMenu />
+      <Chef />
     </div>
   );
 }
