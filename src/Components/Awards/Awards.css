@@ -1,0 +1,50 @@
+.awards {
+  background: #000;
+  align-items: center;
+  padding: 8rem 0 0 10rem;
+  display: flex;
+  text-align: left;
+}
+.sub-heading {
+  margin-left: 1.7rem;
+}
+.award-info h1 {
+  padding: 2rem 0;
+  margin: 0 0 2rem 1.5rem;
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  font-size: 4rem;
+  text-align: left;
+}
+.award-title {
+  margin-top: 1.2rem;
+  padding-left: 1rem;
+  font-family: var(--font-base);
+  text-align: left;
+  font-size: 1.5rem;
+}
+.award-subtitle {
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  font-family: var(--font-base);
+}
+.award-card {
+  flex: 1;
+  display: flex;
+  text-align: left;
+}
+.award-card-img {
+  width: 6.5rem;
+  height: 7rem;
+  margin: 0 0 1.5rem 1.5rem;
+}
+.award-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.award-img img {
+  width: 25rem;
+  height: 30rem;
+  margin-left: 2rem;
+  padding-top: 2.1rem;
+}
