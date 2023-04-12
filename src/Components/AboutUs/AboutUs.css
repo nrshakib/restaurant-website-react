@@ -1,5 +1,5 @@
 .aboutUs {
-  background-color: var(--color-black);
+  background: var(--color-black);
   position: relative;
   display: flex;
   justify-content: center;
