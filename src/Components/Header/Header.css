@@ -3,6 +3,9 @@
   display: flex;
   padding-top: 5rem;
 }
+.sub-heading {
+  margin-bottom: 1rem;
+}
 .sub-title {
   color: var(--color-white);
   font-size: 2rem;
@@ -48,7 +51,7 @@
 }
 
 @media screen and (min-width: 951px) and (max-width: 2000px) {
-  .header{
+  .header {
     padding-left: 6.5rem;
   }
   .sub-title {
@@ -101,11 +104,11 @@
     margin: 0 auto;
   }
   .sub-title {
-    font-size: 1rem;
+    font-size: 0.85rem;
   }
   .header-h1 {
-    font-size: 35px;
-    line-height: 35px;
+    font-size: 2rem;
+    line-height: 2rem;
   }
   .header-text {
     font-size: 0.8rem;

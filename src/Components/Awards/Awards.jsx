@@ -9,7 +9,7 @@ const Awards = () => {
   return (
     <div className="awards" id="awards">
       <div className="award-info">
-        <Subheading title="Awards and Recognitions" className="sub-heading" />
+        <Subheading title="Awards and Recognitions" />
         <h1 className="header-text"> Our Awards</h1>
         <div className="award-items">
           {data.awards.map((award) => (

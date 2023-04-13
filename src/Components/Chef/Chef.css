@@ -1,6 +1,6 @@
 .chef {
   background: var(--color-black);
-  padding-top: 8rem;
+  padding-top: 5rem;
   display: flex;
 }
 .chef-info {
@@ -80,9 +80,6 @@
     height: 15rem;
     margin: 2rem;
   }
-  .chef-info {
-    margin-top: 1.8rem;
-  }
   .chef-content {
     width: 90%;
     margin-right: 0;
@@ -107,6 +104,7 @@
 @media screen and (max-width: 650px) {
   .chef {
     flex-direction: column;
+    padding-bottom: 1rem;
   }
   .chef-img img {
     width: 12rem;
@@ -131,6 +129,9 @@
   .chef-content-quote p {
     width: 75%;
     text-align: left;
+  }
+  .chef-content-quote img {
+    margin: 0 0.5rem 0.5rem;
   }
   .chef-text,
   .chef-text-quote {

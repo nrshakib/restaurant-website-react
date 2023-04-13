@@ -5,9 +5,6 @@
   display: flex;
   text-align: left;
 }
-.sub-heading {
-  margin-left: 1.7rem;
-}
 .award-info h1 {
   padding: 2rem 0;
   margin: 0 0 2rem 1.5rem;
@@ -17,7 +14,7 @@
   text-align: left;
 }
 .award-title {
-  margin-top: 1.2rem;
+  margin-top: 1.7rem;
   padding-left: 1rem;
   font-family: var(--font-base);
   text-align: left;
@@ -47,4 +44,60 @@
   height: 30rem;
   margin-left: 2rem;
   padding-top: 2.1rem;
+}
+@media screen and (min-width: 951px) and (max-width: 1150px) {
+}
+@media screen and (min-width: 651px) and (max-width: 950px) {
+  .awards {
+    padding: 3rem 0;
+  }
+  .award-items {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .award-img img {
+    width: 25rem;
+    height: 40rem;
+    margin-left: 2rem;
+    padding-top: 3rem;
+  }
+  .award-info h1 {
+    font-size: 3.5rem;
+    margin: 0;
+    padding-left: 2rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .awards {
+    padding: 3rem 0;
+  }
+  .award-img img {
+    display: none;
+  }
+
+  .award-info h1 {
+    font-size: 2.7rem;
+    margin: 0;
+    text-align: center;
+  }
+  .award-card {
+    flex-direction: column;
+    margin-top: 0.8rem;
+    text-align: center;
+  }
+  .award-card-img {
+    width: 40%;
+    height: 35%;
+    margin: 0 0 1rem 1.5rem;
+  }
+  .award-title {
+    font-size: 0.99rem;
+    margin: 0rem;
+    padding: 0 0 0 0.8rem;
+  }
+  .award-subtitle {
+    padding-left: 0.8rem;
+    text-align: left;
+  }
 }
