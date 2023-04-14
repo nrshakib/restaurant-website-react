@@ -46,6 +46,18 @@
   padding-top: 2.1rem;
 }
 @media screen and (min-width: 951px) and (max-width: 1150px) {
+  .awards {
+    padding: 3rem 0;
+  }
+  .sub-heading{
+    margin-left: 2rem;
+  }
+  .award-img img {
+    width: 20rem;
+    height: 30rem;
+    margin-left: 2rem;
+    padding-top: 3rem;
+  }
 }
 @media screen and (min-width: 651px) and (max-width: 950px) {
   .awards {
