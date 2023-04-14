@@ -2,6 +2,7 @@ import "./App.css";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import Awards from "./Components/Awards/Awards";
 import Chef from "./Components/Chef/Chef";
+import Gallery from "./Components/Gallery/Gallery";
 import Header from "./Components/Header/Header";
 import Intro from "./Components/Intro/Intro";
 import Navbar from "./Components/Navbar/Navbar";
@@ -17,6 +18,7 @@ function App() {
       <Chef />
       <Intro />
       <Awards />
+      <Gallery />
     </div>
   );
 }
