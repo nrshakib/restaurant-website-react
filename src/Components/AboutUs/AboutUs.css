@@ -5,6 +5,9 @@
   justify-content: center;
   align-items: center;
 }
+.about-text {
+  text-align: right;
+}
 .about-content {
   align-items: center;
   justify-content: center;
@@ -18,7 +21,7 @@
   justify-content: flex-end;
   align-items: flex-end;
   flex-direction: column;
-  text-align: right;
+  text-align: left;
 }
 .about-history {
   flex: 1;
@@ -28,12 +31,7 @@
   flex-direction: column;
   text-align: left;
   color: var(--color-white);
-}
-.about-us p,
-.about-history p {
-  margin: 2rem 0;
-  color: var(--color-grey);
-  width: 50%;
+  margin-top: -11px;
 }
 
 .headText {
@@ -66,9 +64,13 @@
   .aboutUs-knife img {
     height: 25rem;
   }
-  .about-us p,
-  .about-history p {
+  .about-us p {
     margin: 5rem 0;
+    color: var(--color-grey);
+    width: 50%;
+  }
+  .about-history p {
+    margin: 5rem 0 4.5rem;
     color: var(--color-grey);
     width: 50%;
   }

@@ -7,8 +7,10 @@ const AboutUs = () => {
     <div className="aboutUs" id="about">
       <div className="about-content">
         <div className="about-us">
-          <h1 className="headText">About Us</h1>
-          <img src={images.spoon} alt="about-spoon" className="spoon-img" />
+          <div className="about-head">
+            <h1 className="headText">About Us</h1>
+            <img src={images.spoon} alt="about-spoon" className="spoon-img" />
+          </div>
           <p className="about-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima,
             ipsum eveniet facilis praesentium officia suscipit laboriosam
@@ -22,8 +24,10 @@ const AboutUs = () => {
           <img src={images.knife} alt="about-knife" />
         </div>
         <div className="about-history">
-          <h1 className="headText">Our History</h1>
-          <img src={images.spoon} alt="about-spoon" className="spoon-img" />
+          <div className="history-head">
+            <h1 className="headText">Our History</h1>
+            <img src={images.spoon} alt="about-spoon" className="spoon-img" />
+          </div>
           <p className="history-text">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis a
             facere ratione tempora repellat porro, harum dicta optio deserunt,
