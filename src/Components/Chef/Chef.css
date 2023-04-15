@@ -2,6 +2,7 @@
   background: var(--color-black);
   padding-top: 5rem;
   display: flex;
+  padding-bottom: 5rem;
 }
 .chef-info {
   text-align: left;
