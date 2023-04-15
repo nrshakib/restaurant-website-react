@@ -27,8 +27,8 @@ const Gallery = () => {
   };
 
   return (
-    <div className="gallery">
-      <div className="gallery-content">
+    <div className="gallery" style={{ display: "flex" }}>
+      <div className="gallery-content" style={{ display: "flex" }}>
         <Subheading title="Instagram" />
         <h1 className="head-text">Photo Gallery</h1>
         <p style={{ color: "#AAA", margin: "2rem 0" }}>
@@ -38,8 +38,12 @@ const Gallery = () => {
         </p>
         <button className="custom-button">View More</button>
       </div>
-      <div className="gallery-images">
-        <div className="gallery-img-container" ref={scrollRef}>
+      <div className="gallery-images" style={{ display: "flex" }}>
+        <div
+          className="gallery-img-container"
+          style={{ display: "flex" }}
+          ref={scrollRef}
+        >
           {galleryInages.map((image, index) => (
             <div
               className="gallery-img-card"

@@ -1,10 +1,9 @@
 .gallery {
-  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   background: var(--color-black);
-  padding: 4rem 0 4rem 6rem;
+  padding: 4rem 0 4rem 20rem;
 }
 .sub-heading {
   margin-left: 0.01rem;
@@ -18,7 +17,6 @@
 }
 .gallery-content {
   flex: 1;
-  display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
@@ -31,13 +29,11 @@
 }
 .gallery-images {
   flex: 1;
-  display: flex;
   flex-direction: row;
   max-width: 50%;
   position: relative;
 }
 .gallery-img-container {
-  display: flex;
   flex-direction: row;
   width: max-content;
   overflow-x: scroll;
@@ -112,7 +108,7 @@
 @media screen and (min-width: 951px) and (max-width: 1150px) {
   .gallery {
     flex-direction: column;
-    padding: 2rem 1rem 3rem;
+    padding: 1.5rem 1rem 2.5rem;
   }
   .gallery-content {
     justify-content: flex-start;
