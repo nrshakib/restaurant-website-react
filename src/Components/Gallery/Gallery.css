@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   background: var(--color-black);
-  padding: 4rem 0 4rem 20rem;
+  padding: 4rem 0 3rem 10rem;
 }
 .sub-heading {
   margin-left: 0.01rem;
@@ -124,7 +124,7 @@
 }
 @media screen and (min-width: 651px) and (max-width: 950px) {
   .gallery {
-    padding: 4rem 0 4rem 4rem;
+    padding: 4rem 0 3rem 4rem;
     flex-direction: column;
   }
   .gallery-img-card {
