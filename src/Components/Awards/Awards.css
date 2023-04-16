@@ -1,7 +1,7 @@
 .awards {
   background: #000;
   align-items: center;
-  padding: 8rem 0 0 20rem;
+  padding: 8rem 0 0 10rem;
   display: flex;
   text-align: left;
 }
@@ -49,7 +49,7 @@
   .awards {
     padding: 3rem 0;
   }
-  .sub-heading{
+  .sub-heading {
     margin-left: 2rem;
   }
   .award-img img {

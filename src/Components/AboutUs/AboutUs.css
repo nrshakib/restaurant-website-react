@@ -6,7 +6,7 @@
   align-items: center;
 }
 .about-text {
-  text-align: right;
+  color: var(--color-white);
 }
 .about-content {
   align-items: center;
@@ -68,6 +68,7 @@
     margin: 5rem 0;
     color: var(--color-grey);
     width: 50%;
+    text-align: right;
   }
   .about-history p {
     margin: 5rem 0 5.5rem;
@@ -93,7 +94,7 @@
   .about-history p {
     margin-top: 1rem;
     margin-bottom: 1.5rem;
-    text-align: center;
+    text-align: left;
   }
 }
 
@@ -114,6 +115,9 @@
   .about-history p {
     margin-top: 1rem;
     margin-bottom: 1.5rem;
-    text-align: center;
+    text-align: left;
+    width: 70%;
+    color: var(--color-grey);
+    font-size: 0.8rem;
   }
 }
